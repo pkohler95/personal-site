@@ -881,6 +881,8 @@ img {
 .contact__information {
   display: flex;
   margin-bottom: var(--mb-2);
+  width: 231px;
+  justify-content: center;
 }
 
 .contact__icon {
@@ -1089,7 +1091,6 @@ img {
   .skills__container,
   .portfolio__content,
   .project__container,
-  .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1097,6 +1098,11 @@ img {
     display: grid;
     grid-template-columns: 0.6fr;
     justify-content: center;
+  }
+
+  .contact_information_container {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
