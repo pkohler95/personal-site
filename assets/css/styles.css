@@ -295,7 +295,8 @@ img {
 }
 
 .home__blob-img {
-  width: 250px;
+  width: 450px;
+  height: 450px;
 }
 
 .home__data {
